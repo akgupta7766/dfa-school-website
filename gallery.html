@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - DFA Residential School</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="assets/images/logo.png" alt="DFA Residential School Logo" class="logo-img">
+                <h2>DFA Residential School</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="academics.html">Academics</a></li>
+                <li><a href="admissions.html">Admissions</a></li>
+                <li><a href="student-life.html">Student Life</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main style="margin-top: 80px; padding: 2rem 0;">
+        <div class="container">
+            <h1>School Gallery</h1>
+            <p class="gallery-intro">Take a visual tour of our campus, facilities, and student life at DFA Residential School</p>
+            
+            <div class="gallery-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="campus">Campus</button>
+                <button class="filter-btn" data-filter="classroom">Classrooms</button>
+                <button class="filter-btn" data-filter="activities">Activities</button>
+                <button class="filter-btn" data-filter="sports">Sports</button>
+                <button class="filter-btn" data-filter="students">Students</button>
+            </div>
+
+            <div class="full-gallery">
+                <div class="gallery-item" data-category="campus">
+                    <div class="gallery-image">
+                        <img src="assets/images/images.jpeg" alt="School Building">
+                    </div>
+                    <div class="gallery-overlay">
+                        <h3>Main Building</h3>
+                        <p>School main building entrance</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="classroom">
+                    <div class="gallery-image">
+                        <img src="assets/images/image1.jpeg" alt="Classroom">
+                    </div>
+                    <div class="gallery-overlay">
+                        <h3>Classroom</h3>
+                        <p>Well-maintained classroom</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="activities">
+                    <div class="gallery-image">
+                        <img src="assets/images/image2.jpeg" alt="School Activity">
+                    </div>
+                    <div class="gallery-overlay">
+                        <h3>School Activity</h3>
+                        <p>Students participating in activities</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="campus">
+                    <div class="gallery-image">
+                        <img src="assets/images/image3.jpeg" alt="Campus View">
+                    </div>
+                    <div class="gallery-overlay">
+                        <h3>Campus Area</h3>
+                        <p>Beautiful campus surroundings</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="sports">
+                    <div class="gallery-image">
+                        <img src="assets/images/playground.jpeg" alt="Playground">
+                    </div>
+                    <div class="gallery-overlay">
+                        <h3>Playground</h3>
+                        <p>Sports and games area</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="students">
+                    <div class="gallery-image">
+                        <img src="assets/images/students.jpeg" alt="Students">
+                    </div>
+                    <div class="gallery-overlay">
+                        <h3>Our Students</h3>
+                        <p>Bright future of our nation</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>DFA Residential School, Paduma, Manatu, Palamu, Jharkhand - 822123</p>
+            <p>Phone: 8340412330 | Email: maadurgafoundation9@gmail.com</p>
+            <p>&copy; 2024 DFA Residential School. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/gallery.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

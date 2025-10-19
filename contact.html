@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - DFA Residential School</title>
+    <link rel="stylesheet" href="css/style.css">
+    <li><a href="admissions.html">Admissions</a></li>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="assets/images/logo.png" alt="DFA Residential School Logo" class="logo-img">
+                <h2>DFA Residential School</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="academics.html">Academics</a></li>
+                <li><a href="student-life.html">Student Life</a></li>
+                <li><a href="parents.html">Parents</a></li>
+                <li><a href="admissions.html">Admissions</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main style="margin-top: 80px; padding: 2rem 0;">
+        <div class="container">
+            <h1>Contact DFA Residential School</h1>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>School Address</h2>
+                    <p>
+                        <strong>DFA Residential School</strong><br>
+                        Paduma, Manatu<br>
+                        Palamu District<br>
+                        Jharkhand - 822123<br>
+                        India
+                    </p>
+                    
+                    <h2>Contact Details</h2>
+                    <p>
+                        <strong>Principal:</strong> Mr. Mukesh Kumar<br>
+                        <strong>Director:</strong> Mr. Birendra Kumar Gupta<br>
+                        <strong>Phone:</strong> 8340412330<br>
+                        <strong>Email:</strong> maadurgafoundation9@gmail.com
+                    </p>
+                    
+                    <h2>Office Hours</h2>
+                    <p>
+                        Monday - Saturday: 8:00 AM - 3:00 PM<br>
+                        Sunday: Closed
+                    </p>
+
+                    <div class="direction-buttons">
+                        <h2>Get Directions</h2>
+                        <button class="direction-btn" onclick="openGoogleMaps()">
+                            📍 Open in Google Maps
+                        </button>
+                        <button class="direction-btn" onclick="openGoogleMapsDirections()">
+                            🚗 Get Directions
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h2>Send us a Message</h2>
+                   <form action="https://formsubmit.co/maadurgafoundation9@gmail.com" method="POST" onsubmit="return validateForm()">
+    <!-- Hidden fields for FormSubmit -->
+    <input type="hidden" name="_subject" value="New Contact Message - DFA School">
+    <input type="hidden" name="_template" value="table">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_next" value="https://yourwebsite.netlify.app/success.html">
+    
+    <div class="form-group">
+        <label for="name">Full Name *</label>
+        <input type="text" id="name" name="name" required>
+    </div>
+    
+    <div class="form-group">
+        <label for="phone">Phone Number *</label>
+        <input type="tel" id="phone" name="phone" required>
+    </div>
+    
+    <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email">
+    </div>
+    
+    <div class="form-group">
+        <label for="message">Message *</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+    </div>
+    
+    <button type="submit" class="cta-button primary">Send Message</button>
+</form>
+                </div>
+            </div>
+            
+            <div class="map-section">
+                <h2>Find Our School</h2>
+                <div class="map-container">
+                    <iframe 
+                        src="https://maps.google.com/maps?q=24.171120,84.345953&z=15&output=embed" 
+                        width="100%" 
+                        height="400" 
+                        style="border:0; border-radius: 8px;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>DFA Residential School, Paduma, Manatu, Palamu, Jharkhand - 822123</p>
+            <p>Phone: 8340412330 | Email: maadurgafoundation9@gmail.com</p>
+            <p>&copy; 2024 DFA Residential School. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
